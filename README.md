@@ -6,6 +6,18 @@ A fast, multi-threaded TCP port scanner with color-coded output.
 
 ---
 
+## 🖥️ Screenshots
+
+**Scan in progress**
+
+![work](work.png)
+
+**Scan finished**
+
+![end](end.png)
+
+---
+
 ## 🚀 Quick Start
 
 ```bash
@@ -19,16 +31,6 @@ python flowscan.py
 
 ---
 
-## 🖥️ Screenshots
-
-`<!-- ADD YOUR SCREENSHOT HERE -->`
-![scan in progress](screenshots/scanning.png)
-
-`<!-- ADD YOUR SCREENSHOT HERE -->`
-![scan finished](screenshots/result.png)
-
----
-
 ## 📊 Features
 
 - scans all **65,535** TCP ports
@@ -38,7 +40,7 @@ python flowscan.py
 
 ---
 
-# 📝 Example Output
+## 📝 Example Output
 
 ```
 ========================================
