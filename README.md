@@ -35,7 +35,7 @@ python flowscan.py
 
 - scans all **65,535** TCP ports
 - runs on **500 threads** for speed
-*
+
 
 ---
 
