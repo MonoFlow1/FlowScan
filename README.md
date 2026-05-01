@@ -35,8 +35,7 @@ python flowscan.py
 
 - scans all **65,535** TCP ports
 - runs on **500 threads** for speed
-- open ports are shown in 🟢 **green**
-- closed ports are shown in 🔴 **red**
+*
 
 ---
 
