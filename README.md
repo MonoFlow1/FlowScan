@@ -1,32 +1,63 @@
 # FlowScan
 
-TCP port scanner. Multi-threaded, fast, with colored output.
+![Python](https://img.shields.io/badge/python-3.x-blue)
 
-## Run
+A fast, multi-threaded TCP port scanner with color-coded output.
+
+---
+
+## 🚀 Quick Start
 
 ```bash
 python flowscan.py
 ```
 
-## Requirements
+## 📋 Requirements
 
 - Python 3.x
-- No external libs
+- Standard libraries only (`socket`, `threading`, `sys`)
 
-## Features
+---
 
-- scans all 65535 TCP ports
-- 500 threads
-- open ports — green, closed — red
-- summary at the end
+## 🖥️ Screenshots
 
-## Example
+`<!-- ADD YOUR SCREENSHOT HERE -->`
+![scan in progress](screenshots/scanning.png)
+
+`<!-- ADD YOUR SCREENSHOT HERE -->`
+![scan finished](screenshots/result.png)
+
+---
+
+## 📊 Features
+
+- scans all **65,535** TCP ports
+- runs on **500 threads** for speed
+- open ports are shown in 🟢 **green**
+- closed ports are shown in 🔴 **red**
+
+---
+
+# 📝 Example Output
 
 ```
+========================================
+FlowScan
+========================================
+Your local IP: 192.168.1.18
+========================================
+Target IP: 127.0.0.1
+
 Scanning 127.0.0.1 (1-65535)...
+
   [+] 135 OPEN
   [-] 136 CLOSED
   ...
+========================================
+Scan complete
+========================================
+Total scanned : 65535
 [+] Open ports   : 12
 [-] Closed ports : 65523
+========================================
 ```
