@@ -23,21 +23,28 @@ A fast, multi-threaded TCP port scanner written in Python. Built for learning ne
 
 ```bash
 python flowscan.py
+```
 
+## Requirements
 
-Requirements
-	•	Python 3.x
-	•	No external dependencies — standard library only (socket, threading, sys)
+- Python 3.x
+- No external dependencies — standard library only (`socket`, `threading`, `sys`)
 
-Features
-	•	Scans all 65,535 TCP ports
-	•	500 concurrent threads for fast results
-	•	Color-coded output — green for open, red for closed
-	•	Displays your local IP automatically
-	•	Summary report at the end
+---
 
-Example Output
+## Features
 
+- Scans all 65,535 TCP ports
+- 500 concurrent threads for fast results
+- Color-coded output — green for open, red for closed
+- Displays your local IP automatically
+- Summary report at the end
+
+---
+
+## Example Output
+
+```
 ========================================
 FlowScan
 ========================================
@@ -62,12 +69,14 @@ Open ports list:
   [+] 135
   [+] 443
 ========================================
+```
 
+## Notes
 
-Notes
 Only use on systems you own or have explicit permission to scan.
 
-Author
-Made by MonoFlow1 — open to feedback and contributions.
+---
 
-.​​​​​​​​​​​​​
+## Author
+
+Made by MonoFlow1
